@@ -15,7 +15,7 @@ While standard AVL trees provide guaranteed O(log n) time complexity for basic d
 ## ⏱️ Time Complexities
 
 | Operation | Time Complexity | Description |
-| :--- | :--- | :--- |
+| :--- | :---- | :--- |
 | `search(key)` | O(log n) | Standard top-down search. |
 | `finger_search(key)` | O(log d) | Search starting from the max node, where d is the number of elements between the max and the target key. |
 | `insert(key, val)` | O(log n) | Insertion with automatic height updates and rebalancing. |
